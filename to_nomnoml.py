@@ -47,8 +47,8 @@ def print_type_aspect(list, format):
 
 
 # styles
-print("#.aspect: dashed")
-print("#.type:")
+print("#.aspect: dashed title=bold")
+print("#.type: title=bold")
 print()
 
 parents_types = print_type_aspect(b_types, "<type>")
